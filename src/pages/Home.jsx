@@ -7,7 +7,7 @@ const Home = () => {
   const adjustDeskForScreenSize = () => {
     let screenScale = null;
     let screenPosition = [0, -6.5, -43];
-    let deskRotation = [0.2, 1, 0.8];
+    let deskRotation = [-1.1, -1, 0];
 
      if (window.innerWidth < 768) {
       screenScale = 0.9, 0.9, 0.9;
